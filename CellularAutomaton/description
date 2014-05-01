@@ -1,0 +1,36 @@
+Source code can be run under linux.
+
+
+
+You have to have installed C++ compiler.
+
+If you don't have, you
+can installed from terminal:
+
+
+
+sudo apt-get install build-essential
+
+
+
+After you have installed the compiler you should go
+
+to the directory
+were the source file is saved and
+
+call the command:
+
+
+
+g++ main.cpp ./src/CellAutomata.h ./src/CellAutomata.cpp -o test
+
+
+
+after it is sucessfully comiled you can open the output file
+
+
+
+with command
+
+./test
+
